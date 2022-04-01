@@ -1,0 +1,68 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: linear-gradient(
+    109.6deg,
+    rgb(0, 0, 0) 11.2%,
+    rgb(11, 132, 145) 91.1%
+  );
+}
+.container {
+  background-color: #9fd3c7;
+  border-radius: 4px;
+  border: 1px solid #030a09;
+  box-shadow: 2px 2px 5px #030a09;
+  margin: 0px auto;
+  max-width: 600px;
+  padding: 25px 25px 25px 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.head {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: black;
+  font-size: 18px;
+}
+.search {
+  background-color: #337890;
+  color: #ffff;
+  border-color: blue;
+  border-radius: 4px;
+}
+.sun-image {
+  color: #fcff82;
+}
+.rain-icon {
+  color: #7dace4;
+}
+.card-body {
+  background-color: whitesmoke;
+  width: 50px;
+  max-width: 0px auto;
+  margin: 0%;
+  padding: 5px 5px;
+}
+.card-text {
+  color: black;
+}
+p {
+  color: #030a09;
+  display: block;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.temperature {
+  font-size: 54px;
+  font-weight: 300;
+  line-height: 1;
+}
+.degrees {
+  text-decoration: none;
+}
+.units {
+  position: relative;
+  top: -34px;
+  text-decoration: none;
+}
