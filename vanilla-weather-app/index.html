@@ -12,39 +12,44 @@
     <link rel="stylesheet" href="src/styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="form-group">
-        <div class="form-control">     
-        <form class="container" id="search-form">
-        <input type="text" class="text" placeholder=" 🔍 Enter a city" autocomplete="off" autofocus="on" id="city-input">
-        <input type="submit" value="Search" class="btn btn-primary search">
-        <button
-                class="btn btn-success w-10"
-                id="current-location-button"
-              >
-                Current
-              </button>
-        <div class="row">
-<div class="col-8" ><span id="city"></span>
-            <br>
-            <span id="date"></span>
-            <p><span class="description">Partly cloudy</span></p>
+   <div class="container">
+      <div class="weather-app-wrapper">
+      <div class="weather-app">
+        <h1>Weather App</h1>
+        <form class="search-form" id="search-form">
+          <div class="row">
+            <div class="col-4">
+          <input type="text" placeholder="🔍Enter a City or Country..." autofocus="on" id="city-input" class="form-control" />
             </div>
-<div class="col"><span class="temperature"  id="temperature"></span><span class="units"><a href="#" class="degrees" id="fahrenheit-link">&#8451;</a>| <a href="#" class="degrees" id="celsius-link">&#8457;</a></span>
-</div>
+            <div class="col-4">
+          <input type="submit" value="Search" class="form-control btn btn-secondary" />
+          </div>
+          <div class="col-4">
+          <input type="submit" value="Current Location" class="form-control btn btn-secondary" id="current-location-button" />
+          </div>
+        </form>
         </div>
-        <hr>
-        <div class="row">
-            <div class="col-9">
-                <p>wind: <span id="wind"></span>km/h</p>
-                <h></h></p>
-                <p><span>Precipitation: 0%</span></p>
-                <p>Humidity: <span id="humidity"></span>%</p>
-            </div>
-             <div class="col-2 weather-icon">
-            <img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png" class="cloudy" width="100px" /> 
+      <div class="row">
+        <div class="col-5">
+          <ul class="clearfix weather-temperature">
+            <li  class="enter-city" id="city"></li>
+              <li> 
+                <span class="temperature" id="temperature"></span><span class="units">ºC</span>
+              </li>
+            <li id="date"></li>
+          </ul>
         </div>
-        </div>  
+        <div class="col-3">
+        <img src="" alt="Clear" width="130" id="icon" class="float-left" />
+         </div>
+        <div class="col-4">
+          <ul>
+            <li id="description"></li>
+            <li>Humidity: <span id="humidity"></span>%</li>
+            <li>Wind: <span id="wind"></span> Km/h</li>
+          </ul>
+        </div>
+        </div> 
         <hr>   
 <p>
    <strong>5 DAY WEATHER FORECAST</strong> 
@@ -99,7 +104,7 @@
         </div>
   </form>
   </div>
-  <small><a href="https://github.com/chwema/chichi-weather-app" target="_blank">Open-source code</a>, by Chido Chimbetete</small>
+  <footer><a href="https://github.com/chwema/chichi-weather-app" target="_blank"class="open-source-code">Open-source code</a> by: Chido Chimbetete</footer>
   </div> 
     </div>
     <script src="src/script.js"></script>
