@@ -5,7 +5,7 @@ body {
   width: auto;
   height: auto;
   background-size: cover;
-  margin: 100px;
+  margin: 50px;
 }
 h1 {
   color: #a2d0ca;
@@ -37,12 +37,12 @@ li {
 footer {
   font-size: 14px;
   display: block;
-  color: #a2d0ca;
+  color: #01c0dc;
   text-align: center;
 }
 .weather-app-wrapper {
   max-width: 600px;
-  margin: 20px auto;
+  margin: auto;
 }
 .weather-app {
   padding: 20px;
