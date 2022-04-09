@@ -47,7 +47,6 @@ footer {
 .weather-app {
   padding: 20px;
 }
-
 .search-form {
   margin: 15px;
   align-items: center;
@@ -132,7 +131,6 @@ footer {
 }
 .open-source-code {
   color: #0c596b;
-  font-size: 30px;
   font-weight: 600;
   text-decoration: none;
 }
