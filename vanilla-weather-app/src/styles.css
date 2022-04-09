@@ -47,9 +47,7 @@ footer {
 .weather-app {
   padding: 20px;
 }
-:hover .open-source-code {
-  cursor: pointer;
-}
+
 .search-form {
   margin: 15px;
   align-items: center;
