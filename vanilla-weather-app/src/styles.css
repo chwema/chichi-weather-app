@@ -135,3 +135,13 @@ footer {
   color: #01c0dc;
   transition: all 200ms ease-in-out;
 }
+@media (max-width: 528px) {
+  .weather-app {
+    width: 500px;
+  }
+  footer {
+    display: block;
+    text-align: center;
+    font-size: 10px;
+  }
+}
